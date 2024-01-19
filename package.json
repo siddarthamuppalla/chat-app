@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+      "yolo": "echo 'You only live once' > yolo.txt",
+      "delyolo": "rm -f yolo.txt"
+  },
+  "keywords": [],
+  "author": "Siddartha Muppalla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
